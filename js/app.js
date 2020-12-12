@@ -8,7 +8,7 @@ var participants = [
   {"number":  7,  "name": "Lizeth Nathalia Delgadillo Ramirez"},
   {"number":  8,  "name": "Faber Duvan Herrera Martinez"},
   {"number":  9,  "name": "Edna Rocio Ducuara Capera"},
-  {"number":  10, "name": "XXXXX XXXXXXX XXXXXX"},
+  {"number":  10, "name": "Fernanda Aya Vasquez"},
   {"number":  11, "name": "Paola Camila Caro Garzon"},
   {"number":  12, "name": "Julio Cesar Hernandez"},
   {"number":  13, "name": "Valentina Murillo Martinez"},
