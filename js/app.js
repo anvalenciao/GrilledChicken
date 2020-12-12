@@ -1,8 +1,8 @@
 var participants = [
-  {"number":  1,  "name": "XXXXX XXXXXXX XXXXXX"},
+  {"number":  1,  "name": "Alirio Diaz Angarita"},
   {"number":  2,  "name": "Maddie Waldman Rojas Amud"},
   {"number":  3,  "name": "Jacqueline Castañeda Bautista"},
-  {"number":  4,  "name": "XXXXX XXXXXXX XXXXXX"},
+  {"number":  4,  "name": "Jeisson Arturo Gomez Ayala"},
   {"number":  5,  "name": "German Peralta Bernal"},
   {"number":  6,  "name": "Nairo Samir Boom Varga"},
   {"number":  7,  "name": "Lizeth Nathalia Delgadillo Ramirez"},
@@ -18,20 +18,22 @@ var participants = [
   {"number":  17, "name": "Tatiana Castiblanco Moreno"},
   {"number":  18, "name": "Clao Cortes"},
   {"number":  19, "name": "Julio Cesar Canizales"},
-  {"number":  20, "name": "Erika Faisuly Florez Garzon"}
+  {"number":  20, "name": "Erika Faisuly Florez Garzon"},
+  {"number":  21, "name": "Eiver Ivan Gomez Gonzalez"},
+  {"number":  22, "name": "Karime Perez"}
 ];
 
-var view = document.querySelector("#win");
 
+var view = document.querySelector("#win");
 var letters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ ".split("");
 var tl = new TimelineLite({ onUpdate: update, onComplete: complete });
-var randomnumber = Math.floor(Math.random() * (20 - 1 + 1)) + 1;
+var randomnumber = Math.floor(Math.random() * (participants.length - 1 + 1)) + 1;
 var ap = alphabetPosition(participants[randomnumber - 1].name);
 var word = [];
 
 for (var i = 0; i < ap.length; i++) {
   word.push(0);
-  tl.to(word, 10 + (i * 0.1), { [i]: 27 * 3 + ap[i] }, 0);
+  tl.to(word, 11 + (i * 0.1), { [i]: 27 * 3 + ap[i] }, 0);
 }
 
 update();
