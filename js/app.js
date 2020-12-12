@@ -14,7 +14,7 @@ var participants = [
   {"number":  13, "name": "Valentina Murillo Martinez"},
   {"number":  14, "name": "Jhonatan Mejia"},
   {"number":  15, "name": "Jeison Castiblanco"},
-  {"number":  16, "name": "XXXXX XXXXXXX XXXXXX"},
+  {"number":  16, "name": "Joha Soler Villalba"},
   {"number":  17, "name": "Tatiana Castiblanco Moreno"},
   {"number":  18, "name": "Clao Cortes"},
   {"number":  19, "name": "Julio Cesar Canizales"},
